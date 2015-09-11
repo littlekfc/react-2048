@@ -1,5 +1,14 @@
-var HelloMessage = React.createClass({
-        render: function() {
-            return React.createElement('div', null, ["Hello ", this.props.name]);
-        }
+'use strict';
+
+var BoardView = React.createClass({
+    displayName: 'BoardView',
+
+    render: function render() {
+        return React.createElement(
+            'div',
+            null,
+            'Hel'
+        );
+    }
 });
+React.render(React.createElement(BoardView, null), document.getElementById('board'));
