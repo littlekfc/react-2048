@@ -1,0 +1,31 @@
+$background : #faf8ef;
+$fontColor : #776e65;
+$halfmargin : 10px;
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: $background;
+    color: $fontColor;
+    font-size: 18px;
+    font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.grid-container {
+    background: #bbada0;
+    width: 500px;
+    height: 500px;
+    padding: $halfmargin;
+    border-radius: $halfmargin;
+    margin: 0 auto;
+    .grid-row {
+        display: flex;
+        justify-content: center;
+        .grid-cell {
+            background: rgba(238, 228, 218, 0.35);
+            display: inline-block;
+            margin: $halfmargin;
+        }
+    }
+}
+

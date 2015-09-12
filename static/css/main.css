@@ -1,0 +1,22 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #faf8ef;
+  color: #776e65;
+  font-size: 18px;
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif; }
+
+.grid-container {
+  background: #bbada0;
+  width: 500px;
+  height: 500px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0 auto; }
+  .grid-container .grid-row {
+    display: flex;
+    justify-content: center; }
+    .grid-container .grid-row .grid-cell {
+      background: rgba(238, 228, 218, 0.35);
+      display: inline-block;
+      margin: 10px; }
