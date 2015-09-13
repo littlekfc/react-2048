@@ -10,8 +10,8 @@ html, body {
   background: #bbada0;
   width: 500px;
   height: 500px;
-  padding: 10px;
-  border-radius: 10px;
+  padding: 2px;
+  border-radius: 2px;
   margin: 0 auto; }
   .grid-container .grid-row {
     display: flex;
@@ -19,4 +19,10 @@ html, body {
     .grid-container .grid-row .grid-cell {
       background: rgba(238, 228, 218, 0.35);
       display: inline-block;
-      margin: 10px; }
+      margin: 2px; }
+  .grid-container .tile {
+    position: absolute; }
+  .grid-container .color_2 {
+    background: red; }
+  .grid-container .color_4 {
+    background: green; }

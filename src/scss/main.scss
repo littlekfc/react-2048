@@ -1,6 +1,6 @@
 $background : #faf8ef;
 $fontColor : #776e65;
-$halfmargin : 10px;
+$halfmargin : 2px;
 
 html, body {
     margin: 0;
@@ -26,6 +26,15 @@ html, body {
             display: inline-block;
             margin: $halfmargin;
         }
+    }
+    .tile {
+        position: absolute;
+    }
+    .color_2 {
+        background: red;
+    }
+    .color_4 {
+        background: green;
     }
 }
 

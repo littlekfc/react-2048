@@ -18,7 +18,7 @@ class Tile {
 class Board {
     //TODO introduce 
     constructor(size) {
-        this.size = 4;
+        this.size = size;
         this.maxTileLen = size*size;
         this.tileList = [];
         this._board = [];
@@ -38,7 +38,6 @@ class Board {
     }
 
     move(direct) {
-
         return this.tileList;
     }
 

@@ -2291,7 +2291,7 @@ var Board = (function () {
     function Board(size) {
         _classCallCheck(this, Board);
 
-        this.size = 4;
+        this.size = size;
         this.maxTileLen = size * size;
         this.tileList = [];
         this._board = [];
@@ -2315,7 +2315,6 @@ var Board = (function () {
     }, {
         key: 'move',
         value: function move(direct) {
-
             return this.tileList;
         }
     }, {
@@ -2371,5 +2370,5 @@ module.exports = Board;
 if (isBrowser) {
     global.Board = Board;
 }
-}).call(this,require("oMfpAn"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/fake_18328358.js","/")
+}).call(this,require("oMfpAn"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/fake_cbd48da6.js","/")
 },{"buffer":2,"deepcopy":1,"oMfpAn":6}]},{},[9])
