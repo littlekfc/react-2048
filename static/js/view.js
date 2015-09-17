@@ -67,13 +67,14 @@ var BoardView = React.createClass({
             for (var i = 0; i < this.state.tileList.length; i++) {
                 tiles.push(this.createTileOnCell(this.state.tileList[i]));
             }
+        } else {
+            setTimeout(function () {
+                self.setState({
+                    isStart: true,
+                    tileList: self.state.tileList
+                });
+            }, 0);
         }
-        setTimeout(function () {
-            self.setState({
-                isStart: true,
-                tileList: self.state.tileList
-            });
-        }, 0);
         return React.createElement(
             'div',
             { className: 'grid-container', onClick: this.start },
